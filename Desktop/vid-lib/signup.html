@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="video.css"> -->
+    <title>Create account</title>
+    <style>
+        body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+    font-family: monospace;
+    /* background-color: darkslategrey; */
+}
+#video-lib{
+    width: 30%;
+    height: 80%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 4px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+
+}
+h2{
+    font-weight: normal;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.container{
+    background: #eee ;
+    padding: 5px 0;
+
+}
+.footer{
+    background: #eee ;
+    padding: 10px 0;
+    height: 100px;
+    margin-bottom: -20px;
+    display: block;
+    margin-top: 0px;
+    padding-top: 20px;
+    
+
+}
+#copy{
+    padding-top: 20px;
+
+}
+.jumbotron{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.button{
+    width: 100px;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+    
+
+}
+.button:hover{
+    background: #333;
+}
+a{
+    border-color: #9361bf;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 200px;
+    margin-top: 200px;
+
+
+
+}
+/* a:hover{
+    background: #333;
+} */
+input{
+    width: 90%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+label{
+    width: 90%;
+    max-width: 300px;
+    margin:  auto;
+    display: block;
+    padding: 2px;
+    font-size: 16px;
+    color: #444;
+}
+    </style>
+</head>
+
+<body>
+    <div id="video-lib">
+        <header>
+            <div class="container text-center ">
+                <h2 class="display-6 h1 text-secondary text-uppercase">Video-Library</h2>
+                <p>SignUp for your favorite videos</p>
+            </div>
+        </header>
+        <div>
+            <div class="sign">
+                <label for="fullname/email">Fullname/Email:</label>
+                <input type="text" placeholder="please enter fullname/email!" required><br>
+    
+                <label for="ps">Password:</label><br>
+                <input class="form-control" type="password" required><br>
+    
+                <label for="cp">Confirm password:</label>
+                <input class="form-control" type="password" required><br>
+    
+                <button class="button">Submit</button>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer">
+                <nav>
+                    <a href="#">Contacts</a>
+                    <a href="#">Location</a>
+
+                </nav>
+                <div id="copy">
+                    <p style="font-style:italic;">&copy Video 2020 "All Rights Reserved"</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>
