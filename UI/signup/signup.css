@@ -1,29 +1,44 @@
 html,body{
-    background-image: url('../images/32822.jpg');
+    background-image: url('/UI/images/clem-onojeghuo-JnDdZ2oYduo-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-family: 'Numans', sans-serif;
 }
-
+#container {
+    margin-top: 4%;
+}
 .login-form-2{
-    padding: 8%;
-    background: #f05837;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+    background: khaki;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(12, 12, 12, 0.19);
     margin-left: 25%;
     position: absolute;
+    opacity: 0.9;
+    
 }
 .login-form-2 h3{
     text-align: center;
     margin-bottom:12%;
-    color: #fff;
+    color: black;
+}
+h2{
+    
+    color:khaki;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .btnSubmit{
+    
     font-weight: 600;
-    width: 50%;
+    width: 100%;
     color: #282726;
     background-color: #fff;
     border: none;
     border-radius: 1.5rem;
     padding:2%;
+    cursor: pointer;
+    background: linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+    color: #f1f1f1;
+    
+    
 }
