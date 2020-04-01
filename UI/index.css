@@ -43,17 +43,21 @@ input[type=text] {
   }
   #searchbtn {
     border-radius: 1.5rem;
-    width: 10%;
+    width: 7%;
     padding: 10px;
     background-color:  #1c87c9;
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
     opacity: 0.8;
+    display: inline-block;
+    align-content: auto;
   }
-  
+  i{
+      margin-left: 35%;
+  }
   input[type=text]:focus {
     width: 50%;
   }
