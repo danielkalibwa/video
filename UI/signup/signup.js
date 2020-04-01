@@ -1,0 +1,1 @@
+// use  required as controller in html tags to chekc either the input fields are not empty
