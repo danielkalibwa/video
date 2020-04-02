@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url(../images/peter-lewicki-Wfh650C1OHU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  i{
+      font-size: 2rem;
+      color: white;
+  }
+  i:hover{
+      color: #9361bf;;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    color: white;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    max-width: 100%;
+    
+  }
+h2{
+    width: 100%;
+    text-align: center;
+    margin:5 0;
+    color: white;
+}
+  
+  /* Create 3 equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 30%;
+    padding: 0px 40px ;
+    
+  }
+  #row{
+      padding-top: 40px;
+  }
+  img{
+      width: 100%;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of 3 columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .delete{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.delete:hover{
+    background: #333;
+
+}
+
+input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+#add-video{
+    width: 400px;
+    margin: 0 auto;
+    align-content: center;
+    float: left;
+}
+#add-video input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+#add-video button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-video:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-video #hide{
+  width: 30px;
+}
+
+#add-video label{
+  line-height: 52px;
+  color: white;
+}
