@@ -1,11 +1,17 @@
+body {
+    margin: 0;
+    
+  }
 .av {
     margin-right: 20px;
     margin-top: 20px;
     overflow: hidden;
     
+  
 }
 .av:hover{
     background-color: indigo;
+    
 }
 a {
     margin-right: 20px;
@@ -80,7 +86,7 @@ center{
 p{
     font-style:italic;
     text-align: center;
-    color: white;
+    color:white;
 }
 #video-lib{
     width: 100%;
@@ -93,4 +99,6 @@ p{
     background-image: url(./images/hans-eiskonen-13sk8LUVwMg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
+
